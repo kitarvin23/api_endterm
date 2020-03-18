@@ -23,7 +23,7 @@ if($login_button == true){
 
 <div class="collapse navbar-collapse" id="collapse_target">
 <a class="navbar-brand"><img src="images/api.png" width="70" height="auto"></a>
-  <span class="navbar-text-dark">Arvin kit Gallego</span>
+  <span class="navbar-text-dark">Gallego & Junsay</span>
 
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
