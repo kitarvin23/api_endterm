@@ -64,3 +64,109 @@
 
 	</div>
 </div>
+	
+	  <?php
+       if($login_button == ''){
+        switch($navigation){
+          case 'product':
+            require_once 'product.php';
+            break;
+          case 'categories':
+            require_once 'categories.php';
+            break;
+          case 'create':
+            require_once 'form_create.php';
+            break;
+          case 'details':
+            require_once 'product-details.php';
+            break;
+            case 'update':
+              require_once 'form_update.php';
+              break;
+          default:
+          require_once 'home.php';
+          break;
+        }
+      }else{
+        echo '<div align="center">'.$login_button . '</div>';
+      }
+    ?>
+      <?php
+      if(isset($facebook_login_url)){
+            echo '<div align="center">' .$facebook_login_url. '</div>';
+            }else{
+        switch($navigation){
+          case 'product':
+            require_once 'product.php';
+            break;
+          case 'categories':
+            require_once 'categories.php';
+            break;
+          case 'create':
+            require_once 'form_create.php';
+            break;
+          case 'details':
+            require_once 'product-details.php';
+            break;
+            case 'update':
+              require_once 'form_update.php';
+              break;
+          default:
+          require_once 'home.php';
+          break;
+        }
+      }
+    ?>
+      <?php
+       if($login_button == ''){
+        switch($navigation){
+          case 'product':
+            require_once 'product.php';
+            break;
+          case 'categories':
+            require_once 'categories.php';
+            break;
+          case 'create':
+            require_once 'form_create.php';
+            break;
+          case 'details':
+            require_once 'product-details.php';
+            break;
+            case 'update':
+              require_once 'form_update.php';
+              break;
+          default:
+          require_once 'home.php';
+          break;
+        }
+      }else{
+        echo '<div align="center">'.$login_button . '</div>';
+      }
+    ?>
+      <?php
+      if(isset($facebook_login_url)){
+            echo '<div align="center">' .$facebook_login_url. '</div>';
+            }else{
+        switch($navigation){
+          case 'product':
+            require_once 'product.php';
+            break;
+          case 'categories':
+            require_once 'categories.php';
+            break;
+          case 'create':
+            require_once 'form_create.php';
+            break;
+          case 'details':
+            require_once 'product-details.php';
+            break;
+            case 'update':
+              require_once 'form_update.php';
+              break;
+          default:
+          require_once 'home.php';
+          break;
+        }
+      }
+    ?>
+    
