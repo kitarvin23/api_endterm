@@ -17,25 +17,25 @@
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
   
-  <a class="nav-link" href="header.php?navigation=home">Home</a>
+  <a class="nav-link" href="index.php?navigation=home">Home</a>
 
 </li>
 
   <li class="nav-item">
   
-    <a class="nav-link" href="header.php?navigation=product">Product</a>
+    <a class="nav-link" href="index.php?navigation=product">Product</a>
 
   </li>
   
   <li class="nav-item">
   
-    <a class="nav-link" href="header.php?navigation=categories">Categories</a>
+    <a class="nav-link" href="index.php?navigation=categories">Categories</a>
 
   </li>
 
   <li class="nav-item">
   
-    <a class="nav-link" href="header.php?navigation=create">Create</a>
+    <a class="nav-link" href="index.php?navigation=create">Create</a>
 
   </li>
 
