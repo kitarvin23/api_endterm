@@ -1,8 +1,6 @@
-<h1>Welcome User</h1>
-
-      <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/navbar.css">
-      <link rel="stylesheet" href="css/profile.css">
+<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/profile.css">
 <script rel="stylesheet" type="text/javascript" src="css/js/jquery-3.4.1.slim.min.js"></script>
 <script rel="stylesheet" type="text/javascript" src="css/js/bootstrap.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
