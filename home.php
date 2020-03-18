@@ -13,7 +13,7 @@
 
                 </div>
                 <div class="avatar">
-                    <img alt="" src="<?php echo $_SESSION["user_image"] ?>">
+                    <img alt="" src="<?php echo $_SESSION['user_image'] ?>">
                 </div>
                 <div class="info">
                     <div class="title">
