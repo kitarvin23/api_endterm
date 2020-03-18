@@ -1,7 +1,6 @@
 <?php 
 header('location: login.php');
 $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
-}
 ?>
 <html> 
     <head>
