@@ -8,17 +8,27 @@ $list = $details['records'];
 
 $value = $list;
 ?>
-<h1> Product Details </h1>
+<html> 
+    <head>  
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+ <div class="mt-4" style="margin:auto;max-width:300px;text-align: center;">
+    <h1 class="mb-4 form-control"> Product Details </h1>   
+ </div>
 
-<table>
+    <div class="container">    
+
+  <table class="table table-striped">
+    <thead>
     <tr>
         <th>Product</th>
         <th>Description</th>
         <th>Price</th>
         <th>Category ID</th>
-        <th></th>
-        <th></th>
     </tr>
+    </thead>
+    <tbody>
 
     <tr>
         <td><?php echo $value['name'];?></td>
@@ -28,5 +38,8 @@ $value = $list;
         <td><a href="index.php?navigation=update&id=<?php echo $id ?>">Update</a></td>
         <td><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
     </tr>
-
-</table>
+     
+    </tbody>
+  </table>
+</div>
+</html>
