@@ -15,7 +15,7 @@ $google_client->setClientId('693335878324-0ifkl4lsklo1ppe7qopma66qrtpn9afs.apps.
 $google_client->setClientSecret('9NiLEvHOEQkYYWZ18cSOEon8');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://kitarvin23.herokuapp.com/index.php');
+$google_client->setRedirectUri('https://kitarvin23.herokuapp.com');
 
 //
 $google_client->addScope('email');
