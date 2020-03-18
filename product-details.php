@@ -26,6 +26,7 @@ $value = $list;
         <th>Description</th>
         <th>Price</th>
         <th>Category ID</th>
+        <th colspan="3">Action</th>
     </tr>
     </thead>
     <tbody>
