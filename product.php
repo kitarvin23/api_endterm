@@ -1,9 +1,4 @@
 
-      <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/navbar.css">
-<script rel="stylesheet" type="text/javascript" src="css/js/jquery-3.4.1.slim.min.js"></script>
-<script rel="stylesheet" type="text/javascript" src="css/js/bootstrap.min.js"></script>
-<?php
 //credits: john paul maja :D
 $json = file_get_contents("http://rdapi.herokuapp.com/product/read.php");
 
