@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="css/style2.css">
 <?php
 $id = $_GET['id'];
 $json = file_get_contents("http://rdapi.herokuapp.com/product/read_one.php?id=".$id);
