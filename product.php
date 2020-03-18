@@ -1,4 +1,4 @@
-
+<?php
 //credits: john paul maja :D
 $json = file_get_contents("http://rdapi.herokuapp.com/product/read.php");
 
