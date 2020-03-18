@@ -1,3 +1,6 @@
+<?php 
+$navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
+?>
 <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/navbar.css">
 <script rel="stylesheet" type="text/javascript" src="css/js/jquery-3.4.1.slim.min.js"></script>
