@@ -24,7 +24,7 @@
 
   <li class="nav-item">
   
-    <a class="nav-link" href="index.php?navigation=product">Product</a>
+    <a class="nav-link" href="home.php?navigation=product">Product</a>
 
   </li>
   
