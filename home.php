@@ -6,8 +6,7 @@
 <!------ Include the above in your HEAD tag ---------->
 <div class="container">
 	<div class="row">
-		<div class="col-lg-3 col-sm-6">
-
+		<div class="col-lg-7 col-sm-6">
             <div class="card hovercard">
                 <div class="cardheader">
 
@@ -17,9 +16,8 @@
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="https://scripteden.com/">Script Eden</a>
+                    <div><?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?></div>
                     </div>
-                    <div class="desc"><?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?></div>
                     <div class="desc"><?php echo $_SESSION['user_email_address'] ?></div>
                   <a class="desc" href="logout-google.php">Logout</a>
         
