@@ -22,6 +22,36 @@ if($login_button == true){
 </button>
 
 <div class="collapse navbar-collapse" id="collapse_target">
+<a class="navbar-brand"><img src="images/api.png" width="70" height="auto"></a>
+  <span class="navbar-text-dark">Arvin kit Gallego</span>
+
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+  
+  <a class="nav-link" href="index.php?navigation=home">Home</a>
+
+</li>
+
+  <li class="nav-item">
+  
+    <a class="nav-link" href="index.php?navigation=product">Product</a>
+
+  </li>
+  
+  <li class="nav-item">
+  
+    <a class="nav-link" href="index.php?navigation=categories">Categories</a>
+
+  </li>
+
+  <li class="nav-item">
+  
+    <a class="nav-link" href="index.php?navigation=create">Create</a>
+
+  </li>
+
+
+</ul>
 
 </div>
 </nav>
