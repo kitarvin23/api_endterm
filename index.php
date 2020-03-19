@@ -107,7 +107,7 @@ if($login_button == true){
           break;
          }
         }else{
-        echo ' ';
+        echo '<div align="center">'.$login_button . '</div>';
       }
     ?>
       
