@@ -55,7 +55,7 @@ if($login_button == true){
 
 </div>
 </nav>
-
+<div align="center"> <?php echo $login_button; ?> </div>
       <div>       
         
         <?php
@@ -107,7 +107,7 @@ if($login_button == true){
           break;
          }
         }else{
-        echo '<div align="center">'.$login_button . '</div>';
+        echo ' ';
       }
     ?>
       
