@@ -84,7 +84,7 @@ if($login_button == true){
       }
     ?>
         <?php
-      if($facebook_login_url == ''){
+       if($facebook_login_url == ''){
         switch($navigation){
           case 'product':
             require_once 'product.php';
@@ -104,11 +104,12 @@ if($login_button == true){
           default:
           require_once 'home.php';
           break;
-        }
-    }else{
-           echo '<div align="center">' .$facebook_login_url. '</div>';
          }
+        }else{
+        echo '<div align="center">'.$facebook_login_url . '</div>';
+      }
     ?>
+      
       </div>
     </body>
 </html>
