@@ -102,7 +102,7 @@ if($login_button == true){
               require_once 'form_update.php';
               break;
           default:
-          require_once 'xx.php';
+          require_once 'home.php';
           break;
          }
         }else{
