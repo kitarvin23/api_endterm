@@ -1,6 +1,5 @@
 <?php
 include('config.php');
-//google  credits: john paul maja :D <3 
 $login_button = '';
 
 if(isset($_GET["code"])){
