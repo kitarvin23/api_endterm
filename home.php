@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="css/profile.css">
 <script rel="stylesheet" type="text/javascript" src="css/js/jquery-3.4.1.slim.min.js"></script>
 <script rel="stylesheet" type="text/javascript" src="css/js/bootstrap.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<!------ homepage ---------->
 <div class="container" style="margin-left: 25%;">
 	<div class="row">
 		<div class="col-lg-7 col-sm-6">
