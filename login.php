@@ -3,6 +3,17 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
 include('google/google-confirm.php');
 if($login_button == true){
   include('facebook/facebook-confirm.php');
+  
+  $redirect_page='index.php';
+$redirect = false;
+if($redirect==true){
+       header('location:'.$redirect_page);
+       exit;
+}
+else{
+       
+       header('location:login.php');
+}
 }
 ?>
         <?php
