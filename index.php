@@ -14,24 +14,10 @@ if($login_button == true){
 <script rel="stylesheet" type="text/javascript" src="css/js/bootstrap.min.js"></script>
     </head>
   <body>
-   
-<nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
 
-<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-  <span class="navbar-toggler-icon" ></span>
-</button>
-
-<div class="collapse navbar-collapse" id="collapse_target">
-<a class="navbar-brand"><img src="images/api.png" width="70" height="auto"></a>
-  <span class="navbar-text-dark">Gallego & Junsay</span>
-
-
-
-</ul>
-</div>
-</nav>
-      <div>  
-          <?php if($facebook_login_url == '' OR $login_button == ''){ ?>
+      <div>       
+          <?php
+       if($facebook_login_url == '' OR $login_button == ''){ ?>
         
 <nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
 
@@ -45,22 +31,34 @@ if($login_button == true){
 
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
+  
   <a class="nav-link" href="index.php?navigation=home">Home</a>
+
 </li>
 
   <li class="nav-item">
+  
     <a class="nav-link" href="index.php?navigation=product">Product</a>
+
   </li>
   
   <li class="nav-item">
+  
     <a class="nav-link" href="index.php?navigation=categories">Categories</a>
+
   </li>
-        
+
   <li class="nav-item">
+  
     <a class="nav-link" href="index.php?navigation=create">Create</a>
+
   </li>
-        
-      <?php  switch($navigation){
+
+
+</ul>
+</div>
+</nav>
+       <?php switch($navigation){
           case 'product':
             require_once 'product.php';
             break;
@@ -80,12 +78,11 @@ if($login_button == true){
           require_once 'home.php';
           break;
          } ?>
-        
-       <?php }else{
+  <?php      }else{
         echo '<div align="center">'.$facebook_login_url . '</div>';
         echo '<div align="center">'.$login_button . '</div>';
       }
-        ?>
+    ?>
 
 
       </div>
