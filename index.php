@@ -77,11 +77,12 @@ if($login_button == true){
           require_once 'home.php';
           break;
          } ?>
-  <?php      }else{
-        echo '<div align="center">'.$facebook_login_url . '</div>';
+  <?php }else{ ?>
+        <h4> WElcome mothafaka</h4>
+     <?php   echo '<div align="center">'.$facebook_login_url . '</div>';
         echo '<div align="center">'.$login_button . '</div>';
-      }
-    ?>
+      } ?>
+    
 
 
       </div>
