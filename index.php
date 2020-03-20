@@ -55,7 +55,7 @@ if($login_button == true){
   
   <li class="nav-item">
   
-    <a class="nav-link btn bg-danger" href="logout-google.php">Logout</a>
+    <a style="color:red;" class="nav-link" href="logout-google.php">Logout</a>
 
   </li>
 
