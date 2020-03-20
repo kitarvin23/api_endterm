@@ -14,7 +14,6 @@ if($login_button == true){
 <script rel="stylesheet" type="text/javascript" src="css/js/bootstrap.min.js"></script>
     </head>
   <body>
-<h1> WELCOME <h1>
       <div>       
           <?php
        if($facebook_login_url == '' OR $login_button == ''){ ?>
