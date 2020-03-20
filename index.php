@@ -49,14 +49,11 @@ if($login_button == true){
 </ul>
 </div>
 </nav>
-      <div>       
-        <?php
+      <div>  
           <?php if($facebook_login_url == '' OR $login_button == ''){ ?>
         
   <li class="nav-item">
-  
-    <a class="nav-link" href="index.php?navigation=create">Create</a>
-
+    <a class="nav-link" href="index.php?navigation=create">Create2</a>
   </li>
         
       <?php  switch($navigation){
@@ -84,7 +81,6 @@ if($login_button == true){
         echo '<div align="center">'.$facebook_login_url . '</div>';
         echo '<div align="center">'.$login_button . '</div>';
       }
-    ?>
         ?>
 
 
