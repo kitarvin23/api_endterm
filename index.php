@@ -52,6 +52,12 @@ if($login_button == true){
     <a class="nav-link" href="index.php?navigation=create">Create</a>
 
   </li>
+  
+  <li class="nav-item">
+  
+    <a style="color:red;" class="nav-link" href="logout-google.php">Create</a>
+
+  </li>
 
 
 </ul>
