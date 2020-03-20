@@ -4,6 +4,7 @@ $redirect_page='index.php';
 $redirect = false;
 if($redirect==true){
        header('location:'.$redirect_page);
+       exit;
 }
 else{
        
