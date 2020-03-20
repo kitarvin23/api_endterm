@@ -57,7 +57,6 @@ if($login_button == true){
       <div>       
           <?php
        if($facebook_login_url == '' OR $login_button == ''){
-       header('location: index.php?navigation=home');
         switch($navigation){
           case 'product':
             require_once 'product.php';
