@@ -1,15 +1,5 @@
 <?php 
 $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
-$redirect_page='index.php';
-$redirect = false;
-if($redirect==true){
-       header('location:'.$redirect_page);
-       exit;
-}
-else{
-       
-       header('location:login.php');
-}
 ?>
 <html> 
     <head>
