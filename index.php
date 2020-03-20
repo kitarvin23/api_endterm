@@ -87,7 +87,8 @@ if($login_button == true){
 <div class="collapse navbar-collapse" id="collapse_target">
 <a class="navbar-brand"><img src="images/api.png" width="70" height="auto"></a>
   <span class="navbar-text-dark">Please log in </span>
-
+          </div>
+        </nav>
      <?php   echo '<div align="center">'.$facebook_login_url . '</div>';
         echo '<div align="center">'.$login_button . '</div>';
       } ?>
