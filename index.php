@@ -32,7 +32,17 @@ if($login_button == true){
 </nav>
       <div>  
           <?php if($facebook_login_url == '' OR $login_button == ''){ ?>
-     
+        
+<nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
+
+<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+  <span class="navbar-toggler-icon" ></span>
+</button>
+
+<div class="collapse navbar-collapse" id="collapse_target">
+<a class="navbar-brand"><img src="images/api.png" width="70" height="auto"></a>
+  <span class="navbar-text-dark">Gallego & Junsay</span>
+
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
   <a class="nav-link" href="index.php?navigation=home">Home</a>
