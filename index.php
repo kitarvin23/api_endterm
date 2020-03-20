@@ -1,7 +1,7 @@
 <?php 
 $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
 $redirect_page='index.php';
-$redirect = true;
+$redirect = false;
 if($redirect==true){
        header('location:'.$redirect_page);
 }
