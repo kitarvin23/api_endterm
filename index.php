@@ -15,6 +15,14 @@ if($login_button == true){
     </head>
   <body>
 
+
+
+</ul>
+</div>
+</nav>
+      <div>  
+          <?php if($facebook_login_url == '' OR $login_button == ''){ ?>
+        
 <nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
 
 <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
@@ -27,33 +35,19 @@ if($login_button == true){
 
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
-  
   <a class="nav-link" href="index.php?navigation=home">Home</a>
-
 </li>
 
   <li class="nav-item">
-  
     <a class="nav-link" href="index.php?navigation=product">Product</a>
-
   </li>
   
   <li class="nav-item">
-  
     <a class="nav-link" href="index.php?navigation=categories">Categories</a>
-
   </li>
-
-
-
-</ul>
-</div>
-</nav>
-      <div>  
-          <?php if($facebook_login_url == '' OR $login_button == ''){ ?>
         
   <li class="nav-item">
-    <a class="nav-link" href="index.php?navigation=create">Create2</a>
+    <a class="nav-link" href="index.php?navigation=create">Create</a>
   </li>
         
       <?php  switch($navigation){
