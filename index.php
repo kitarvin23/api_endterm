@@ -1,11 +1,10 @@
 <?php 
 $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
-       if($facebook_login_url == '' OR $login_button == ''){
-        return true;
-         } }else{
-header('location: login.php');
-           die();
-      }
+$redirect_page='login.php';
+$redirect = true;
+if($redirect==true){
+       header('location:'.$redirect_page);
+}
 ?>
 <html> 
     <head>
