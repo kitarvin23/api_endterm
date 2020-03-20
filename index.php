@@ -44,20 +44,22 @@ if($login_button == true){
 
   </li>
 
-  <li class="nav-item">
-  
-    <a class="nav-link" href="index.php?navigation=create">Create</a>
-
-  </li>
 
 
 </ul>
 </div>
 </nav>
       <div>       
-          <?php
-       if($facebook_login_url == '' OR $login_button == ''){
-        switch($navigation){
+        <?php
+          <?php if($facebook_login_url == '' OR $login_button == ''){ ?>
+        
+  <li class="nav-item">
+  
+    <a class="nav-link" href="index.php?navigation=create">Create</a>
+
+  </li>
+        
+      <?php  switch($navigation){
           case 'product':
             require_once 'product.php';
             break;
@@ -76,12 +78,14 @@ if($login_button == true){
           default:
           require_once 'home.php';
           break;
-         }
-        }else{
+         } ?>
+        
+       <?php }else{
         echo '<div align="center">'.$facebook_login_url . '</div>';
         echo '<div align="center">'.$login_button . '</div>';
       }
     ?>
+        ?>
 
 
       </div>
