@@ -20,7 +20,7 @@
                     <div><?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?></div>
                     </div>
                     <div class="desc"><?php echo $_SESSION['user_email_address'] ?></div>
-                  <a style="color:red;" class="desc" href="logout-google.php">Logout</a>
+                  <div class="desc">Welcome to our page!</div>
         
                 </div>
             </div>
