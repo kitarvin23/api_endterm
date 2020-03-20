@@ -1,10 +1,6 @@
 <?php 
 $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
-include('functions.php');
-
-	if (!isLoggedIn()) {
-		header('location: login.php');
-	}
+header('location: login.php');
 ?>
 <html> 
     <head>
