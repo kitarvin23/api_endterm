@@ -55,12 +55,7 @@ if($login_button == true){
 </div>
 </nav>
       <div>       
-        
-      </div>
-    </body>
-</html>
-
-    <?php
+          <?php
        if($facebook_login_url == '' OR $login_button == ''){
        header('location: index.php?navigation=home');
         switch($navigation){
@@ -89,3 +84,9 @@ if($login_button == true){
       }
     ?>
 
+
+      </div>
+    </body>
+</html>
+
+  
