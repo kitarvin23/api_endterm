@@ -78,7 +78,16 @@ if($login_button == true){
           break;
          } ?>
   <?php }else{ ?>
-        <h4> WElcome mothafaka</h4>
+        <nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
+
+<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+  <span class="navbar-toggler-icon" ></span>
+</button>
+
+<div class="collapse navbar-collapse" id="collapse_target">
+<a class="navbar-brand"><img src="images/api.png" width="70" height="auto"></a>
+  <span class="navbar-text-dark">Please log in </span>
+
      <?php   echo '<div align="center">'.$facebook_login_url . '</div>';
         echo '<div align="center">'.$login_button . '</div>';
       } ?>
