@@ -89,6 +89,7 @@ if($login_button == true){
   <span class="navbar-text-dark">Please log in </span>
           </div>
         </nav>
+        </br>
      <?php   echo '<div align="center">'.$facebook_login_url . '</div>';
         echo '<div align="center">'.$login_button . '</div>';
       } ?>
