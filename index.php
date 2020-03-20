@@ -3,11 +3,11 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
 $redirect_page='login.php';
 $redirect = true;
 if($redirect==true){
-       header('location:index.php');
+       header('location:'.$redirect_page);
 }
 else{
        
-       header('location:login.php');
+       header('location:index.php');
 }
 ?>
 <html> 
